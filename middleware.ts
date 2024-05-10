@@ -14,6 +14,6 @@ export default clerkMiddleware();
 
 export const config = {
   matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
-  // publicRoutes: ['/api/webhooks/clerk'],
-  publicRoutes: ['/', '/api/webhooks/clerk', '/api/webhooks/stripe'],
+  publicRoutes: ['/api/webhooks/clerk'],
+  // publicRoutes: ['/', '/api/webhooks/clerk', '/api/webhooks/stripe'],
 };
